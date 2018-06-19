@@ -1,0 +1,123 @@
+
+body { 
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+    background-color:#dddddd;
+    background-image: url(../images/background.jpg);
+}
+
+header {
+    background-color: grey;
+    border-top: 6x solid black;
+}
+
+.jumbotron-fluid {
+    height: 100px;
+    
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2em;
+ 
+    border-bottom: 3px solid #777777;
+}
+
+footer {
+border-top: 6px solid black;
+background-color: grey;
+text-align: center;
+padding:20px;
+position:fixed;
+bottom: 0;
+width:100%;
+color: black;
+}
+
+.photo { 
+
+    padding: 10px;
+}
+    
+
+
+.form-control{
+    content: normal;
+}
+
+p {
+    line-height: 1.5;
+    margin-top: 25px;
+}
+
+.lions {
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.clearfix::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+
+.container {
+    padding: 2em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.containerb {
+    padding: 2em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.camille {
+    background-color:#dddddd;
+    padding:0 20px;
+    margin:6px;
+    float:left;
+    color:gray;
+    font-weight: bold;
+    font-size: 2em;
+
+}
+
+.nav-link {
+    float: right;
+    font-weight: bold;
+    padding: right;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .clearfix::after {
+        content:"";
+        display: table;
+        clear:both;
+        padding:auto;
+
+    }
+
+    .container {
+        padding: 1em;
+        margin-top: 70px;
+        margin-bottom: 100px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    .lions {
+        float: left;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+}
